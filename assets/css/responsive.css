@@ -34,14 +34,59 @@
 
     /* online game section */
     .online-game{
-        padding: 30px 60px;
+        padding: 10px;
+        width: 100%;
+    }
+    .online-game h1{
+        width: 400px;
+        padding-left: 400px;
+    }
+    .online-game p{
+        width: 400px;
+        padding-left: 400px;
     }
     .online-game-card{
         flex-direction: column;
         width: 100%;
+        margin-left: 400px;
+
     }
-    .card{
-        margin-left: 300px;
+    card img{
+        width: 100%;
+    }
+    /* play section */
+    .play-instantly-container{
+        flex-direction: column;
+    }
+    .play-content{
+        width: 400px;
+        padding-left: 150px;
+    }
+    /* icon button style */
+    .button-section-container{
+        grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr);
+    width: 600px;
+    padding-left: 300px;
+    }
+    /* footer section */
+    footer{
+        width: 100%;
+    }
+    .page-container{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        padding-left: 90px;
+    }
+    .social-icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2 1fr);
+    }
+    .policy-items{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2 1fr);
+        padding-left: 90px;
     }
 }
 
@@ -64,5 +109,59 @@
     }
     .banner-content{
         width: 50rem ;
+    }
+    /* online game section */
+    .online-game{
+        padding: 10px;
+        width: 100%;
+    }
+    .online-game h1{
+        width: 400px;
+        padding-left: 400px;
+    }
+    .online-game p{
+        width: 400px;
+        padding-left: 400px;
+    }
+    .online-game-card{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 200px;
+
+    }
+    card img{
+        width: 100%;
+    }
+    /* play section */
+    .play-instantly-container{
+        flex-direction: column;
+    }
+    .play-content{
+        width: 400px;
+        padding-left: 150px;
+    }
+    /* icon button style */
+    .button-section-container{
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(3, 1fr);
+        width: 600px;
+        padding-left: 300px;
+    }
+    /* footer section */
+    footer{
+        width: 100%;
+    }
+    .page-container{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        padding-left: 90px;
+    }
+    .social-icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2 1fr);
+    }
+    .policy-items{
+        padding-left: 90px;
     }
 }
