@@ -43,6 +43,7 @@ body{
     padding: 38px 240px;
     justify-content: space-between;
 }
+
 .nav-container h2{
     display: inline;
     font-size: 2.8rem;
@@ -68,7 +69,7 @@ body{
     text-decoration: none;
     margin-left: 32px;
 }
-#follow{
+.follow{
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);  
     padding: 16px 24px;
@@ -76,7 +77,7 @@ body{
     text-align: center;
     margin-top: -15px;
 }
-#follow a{
+.follow a{
     text-decoration: none;
     margin-left: 16px;
     font-size: 18px;
