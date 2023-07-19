@@ -59,7 +59,7 @@ body{
 
 .nav-container h2{
     display: inline;
-    font-size: 2.8rem;
+    font-size: 48px;
     margin-left: 8px;
 
 }
@@ -96,7 +96,7 @@ body{
     font-size: 18px;
     text-align: center;
 }
-.fa-youtube{
+.menu .fa-youtube{
     color: red;
     font-size: 24px;
 }
@@ -219,3 +219,59 @@ body{
     border: 1px solid #FF42A5;
 }
 /* icon button style end */
+
+/* footer style start */
+footer{
+    padding: 80px 240px;
+    background-color: #4EC5F7;
+    margin-top: 80px;
+}
+footer .logo h2{
+    display: inline;
+    font-size: 48px;
+}
+footer .logo h2 span{
+    color: #FF42A5;
+}
+footer .logo img{
+    width: 80px;
+}
+footer .logo{
+    text-align: center;
+}
+.page-container{
+    padding: 50px 150px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 60px;
+}
+.page-container a{
+    text-decoration: none;
+    color: #0B0223;
+    text-align: center;;
+    font-size: 18px;
+    font-weight: 600;
+    }
+    .social-icons{
+        text-align: center;
+        margin-top: 60px;
+    }
+    .social-icons a{
+        text-decoration: none;
+        font-size: 45px;
+        margin: 20px;
+        color: #0B0223;
+    }
+    .policy-items{
+        padding: 80px 180px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 60px;
+    }.policy-items a{
+        text-decoration: none;
+        color: #0B0223;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+    }
+/* footer style end */
