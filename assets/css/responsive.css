@@ -31,6 +31,18 @@
         margin-right: 90px;
         text-align: center;
     }
+
+    /* online game section */
+    .online-game{
+        padding: 30px 60px;
+    }
+    .online-game-card{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card{
+        margin-left: 300px;
+    }
 }
 
 

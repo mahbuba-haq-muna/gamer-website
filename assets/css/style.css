@@ -36,6 +36,19 @@ body{
 .btn-blue:hover{
     background-color: #81abbd;
 }
+.section-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.section-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 /* nav style start */
 
 .nav-container{
@@ -135,3 +148,18 @@ body{
 }
 
 /* banner style end */
+
+/* online game part start */
+
+.online-game{
+    padding: 60px 240px;
+}
+.online-game span{
+    color: #4EC5F7;
+}
+.online-game-card{
+    display: flex;
+    padding-top: 80px;
+    gap: 24px;
+}
+/* online game part end */
