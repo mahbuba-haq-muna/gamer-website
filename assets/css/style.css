@@ -162,6 +162,48 @@ body{
     padding-top: 80px;
     gap: 24px;
 }
+card{
+    position: relative;
+    background-color: #f0f0f0; /* Card background color */
+    border-radius: 10px;
+    overflow: hidden; /* Ensure the overlay stays within the card */
+  }
+  
+  /* Styles for the black overlay */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Black overlay with 70% opacity */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Hide the overlay by default */
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Styles for the play icon */
+  .play-icon {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the watch now paragraph */
+  .watch-now {
+    color: #FF42A5;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  /* Show the overlay on hover */
+  card:hover .overlay {
+    opacity: 1;
+  }
 /* online game part end */
 
 /* play section styles start */
